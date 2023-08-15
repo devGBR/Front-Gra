@@ -1,0 +1,70 @@
+.Body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #676767;
+    width: 100%;
+    /* background-image: url("https://i.pinimg.com/originals/9f/04/7a/9f047a836904bda16c730e1073ee7b6a.jpg"); */
+  z-index: 3;
+    height: 100vh;
+    display: flex;
+
+    
+  }
+  .appLogin{
+    width: 50%;
+    height: 100%;
+    background-color: #dcb28c;
+    padding: 3rem 5rem;
+  }
+  .back{
+    background-image: url("https://i.pinimg.com/originals/b4/71/f8/b471f83262e8648f39b4494ac130f8ba.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    padding: 20px 30px;
+    border-radius: 0px;
+  }
+  .buttonLogin{
+        width: 100%;
+        border-radius: 0px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        box-shadow: none;
+        height: 40px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        font-family: system-ui;
+        justify-content: center;
+        letter-spacing: 5px;
+  }
+  .formLogin{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+ 
+  .Email::placeholder {
+    color: rgba(255, 255, 255, 0.638);
+    text-align: end;
+    padding-right: 10px;
+  }
+  .senha::placeholder{
+    color: white;
+    padding-left: 5px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .back{
+      display: none;
+    }
+    .appLogin{
+      width: 100%;
+    }
+  }
+ 
